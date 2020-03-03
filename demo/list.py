@@ -48,3 +48,8 @@ print(squares_two)   # 三次方 [0, 1, 8, 27, 64]
 even_squares = [num ** 2 for num in nums_square if num % 2 == 0]
 print(even_squares)  # [0, 4, 16]
 
+num_test = [1, 2, 3]
+num_splice = num_test[:2]
+num_splice[0] = 22
+print(num_splice)
+print(num_test)
